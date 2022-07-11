@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
-
 # To determine the total pay of an employee based on worked hours and rate per hour.
 # This calculator will be programmed through assignment of a function.
 
@@ -30,10 +24,3 @@ if fhrs > 40:            #extra rate only apply when working hours go beyond 40.
 # Calling the function.
 P = computepay(fhrs, frph, fxph)
 print("Employee's Basic Pay:", P,"Units")
-
-
-# In[ ]:
-
-
-
-
