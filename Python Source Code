@@ -26,8 +26,8 @@ if fhrs > 40:            #extra rate only apply when working hours go beyond 40.
 P = computepay(fhrs, frph, fxph)
 print("Employee's Basic Pay:", P,"Units")
 
-Logic behind this program runs under two conditions: -
+'''Logic behind this program runs under two conditions: -
 1st when the hours worked is less than or equal to 40 hours then the totalpay = rate*hours
 2nd when the hours worked exceed 40 hours then total pay includes two sub-pay: (1) pay1 = rate*hours
                                                                                (2) pay2 = (hours-40)*(rate)*(extrawork times constant)
-                                                                               Thus, totalpay = pay1 + pay2
+                                                                               Thus, totalpay = pay1 + pay2'''
