@@ -7,3 +7,9 @@ The steps inloved in this python program are: -
 2) Taking user's input like; hours, rate per hour and time rate per hour for overtime work.
 3) Calling the function.
 4) Displaying the output.
+
+Logic behind this program runs under two conditions: -
+1st when the hours worked is less than or equal to 40 hours then the totalpay = rate*hours
+2nd whne the hours worked exceed 40 hours then total pay includes two sub-pay: (1) pay1 = rate*hours
+                                                                               (2) pay2 = (hours-40)*(rate)*(extrawork times constant)
+                                                                               Thus, totalpay = pay1 + pay2
